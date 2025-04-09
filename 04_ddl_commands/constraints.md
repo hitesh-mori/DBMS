@@ -1,6 +1,7 @@
 
 ## 🔐 SQL **Constraints** — Overview  
 
+
 SQL **constraints** are rules enforced on columns to maintain **data integrity**. Here are the **main constraints**:
 
 | Constraint   | Description                                                                 |
