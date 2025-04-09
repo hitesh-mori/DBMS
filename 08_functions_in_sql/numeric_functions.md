@@ -135,7 +135,6 @@ SELECT value
 FROM my_table
 WHERE CEIL(value) = FLOOR(value);
 ```
-
 ---
 
 ### 4. ✅ **Find the absolute difference between max and min salary from an employee table**
