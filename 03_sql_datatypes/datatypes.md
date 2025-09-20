@@ -55,7 +55,40 @@ SQL data types define the type of data a column can hold. They vary slightly bet
 | `TIMESTAMP`   | Auto-updating timestamp    | Unix Epoch-based         | 1970-01-01 to 2038-01-19 (MySQL)   | Row creation/update    |
 | `YEAR`        | Year only                  | `YYYY`                   | 1901 to 2155                       | Year of manufacture    |
 
+
 ---
+
+# 📅 MySQL `DATE_FORMAT()` Specifiers
+
+| Code             | Output Example | Meaning                                       |
+| ---------------- | -------------- | --------------------------------------------- |
+| **%d**           | `21`           | Day of month (01–31, zero-padded)             |
+| **%e**           | `21`           | Day of month (1–31, no leading zero)          |
+| **%a**           | `Sat`          | Abbreviated weekday name                      |
+| **%W**           | `Saturday`     | Full weekday name                             |
+| **%b**           | `Jul`          | Abbreviated month name                        |
+| **%M**           | `July`         | Full month name                               |
+| **%m**           | `07`           | Month number (01–12, zero-padded)             |
+| **%c**           | `7`            | Month number (1–12, no leading zero)          |
+| **%y**           | `12`           | Year (last 2 digits)                          |
+| **%Y**           | `2012`         | Year (4 digits)                               |
+| **%H**           | `23`           | Hour (00–23, 24-hour clock)                   |
+| **%h** or **%I** | `11`           | Hour (01–12, 12-hour clock)                   |
+| **%p**           | `AM` / `PM`    | Meridian indicator                            |
+| **%i**           | `59`           | Minutes (00–59)                               |
+| **%s** or **%S** | `45`           | Seconds (00–59)                               |
+| **%f**           | `123456`       | Microseconds (000000–999999)                  |
+| **%T**           | `23:59:59`     | 24-hour time (`%H:%i:%s`)                     |
+| **%r**           | `11:59:59 PM`  | 12-hour time (`%h:%i:%s %p`)                  |
+| **%j**           | `172`          | Day of year (001–366)                         |
+| **%U**           | `25`           | Week number (Sunday first day of week, 00–53) |
+| **%u**           | `25`           | Week number (Monday first day of week, 00–53) |
+| **%V**           | `25`           | Week number (ISO 8601, with `%X`)             |
+| **%x**           | `2012`         | Year for week (Monday first)                  |
+| **%X**           | `2012`         | Year for week (Sunday first)                  |
+
+---
+
 
 ## 🔶 4. **Boolean Data Type**
 
