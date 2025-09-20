@@ -34,7 +34,7 @@ CREATE TABLE employees (
 
 ```
 
-## ### 2. `ALTER`
+## 2. `ALTER`
 
 Used to **modify the structure** of existing database objects, especially tables.
 
